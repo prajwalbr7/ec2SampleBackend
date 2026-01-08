@@ -1,0 +1,10 @@
+### Get all submitted data
+GET http://localhost:5000/data
+
+### Submit new data
+POST http://localhost:5000/submit
+Content-Type: application/json
+
+{
+  "name": "John Doe"
+}
